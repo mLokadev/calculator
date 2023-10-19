@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+    background-position: center;
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+input[type="button"] {
+    background-color: blueviolet;
+    text-decoration-color: bisque;
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+    input[type="button"] {
+        width: 100%;
+    }
+}
